@@ -54,7 +54,7 @@ script:
 - ./scripts/ci/build_and_test.sh ${MODE}
 
 after_script:
-- ./scripts/ci/print-logs.sh
+#- ./scripts/ci/print-logs.sh
 
 notifications:
   webhooks:
